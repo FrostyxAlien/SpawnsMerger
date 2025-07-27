@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 // Edit - Öffnet ein GUI zum Zusammenführen anstatt über Hand
 
 public class SpawnerMergeCommand implements CommandExecutor {
-    @Override
+
     private final SpawnerMergeGUI gui;
 
     public SpawnerMergeCommand(SpawnerMergeGUI gui) {

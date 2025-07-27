@@ -20,7 +20,7 @@ public final class SpawnsMerger extends JavaPlugin {
         getServer().getPluginManager().registerEvents(mergeGUI, this);
 
         getCommand("givespawner").setExecutor(new SpawnerCommand());
-        getCommand("mergespawner").setExecutor(new SpawnerMergeCommand());
+        getCommand("mergespawner").setExecutor(new SpawnerMergeCommand(mergeGUI));
 
     }
 
