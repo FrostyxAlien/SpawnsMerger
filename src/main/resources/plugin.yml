@@ -1,0 +1,9 @@
+name: SpawnsMerger
+version: '1.0-SNAPSHOT'
+main: dev.frosty.spawnsMerger.SpawnsMerger
+api-version: '1.21'
+depend: [NBTAPI]
+commands:
+  givespawner:
+    description: Gibt dir einen Test-Spawner
+    usage: /<command>
