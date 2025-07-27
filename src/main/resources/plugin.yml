@@ -1,5 +1,5 @@
 name: SpawnsMerger
-version: '1.0-SNAPSHOT'
+version: '1.2-SNAPSHOT'
 main: dev.frosty.spawnsMerger.SpawnsMerger
 api-version: '1.21'
 depend: [NBTAPI]
@@ -8,5 +8,5 @@ commands:
     description: Gibt dir einen begrenzten Spawner
     usage: /givespawner <MobType> <Anzahl-Spawns>
   mergespawner:
-    description: Führt zwei Spawner in deiner rechten und linken Hand zusammenzu einem
+    description: Öffnet ein Menü zum Zusammenführen von Spawnern
     usage: /mergespawner

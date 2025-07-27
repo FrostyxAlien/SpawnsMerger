@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'dev.frosty'
-version = '1.0-SNAPSHOT'
+version = '1.2-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -24,7 +24,7 @@ repositories {
 
 dependencies {
     // Spigot 1.21.5 API – SNAPSHOT aktuell (nur compileOnly!)
-    compileOnly("io.papermc.paper:paper-api:1.21.5-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
     // NBT-API zum Lesen/Schreiben von NBT-Daten
     compileOnly("de.tr7zw:item-nbt-api-plugin:2.15.1")
 }

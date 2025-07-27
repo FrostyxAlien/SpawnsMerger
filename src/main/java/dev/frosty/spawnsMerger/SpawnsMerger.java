@@ -6,7 +6,7 @@ import dev.frosty.spawnsMerger.SpawnerCommand;
 import dev.frosty.spawnsMerger.SpawnerListener;
 import dev.frosty.spawnsMerger.SpawnerMergeCommand;
 
-/** Main plugin class. */
+// MAIN
 
 public final class SpawnsMerger extends JavaPlugin {
 
@@ -14,9 +14,13 @@ public final class SpawnsMerger extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         System.out.println("Plugin gestartet.");
+
+        SpawnerMergeGUI mergeGUI = new SpawnerMergeGUI();
+        getServer().getPluginManager().registerEvents(new SpawnerListener(this), this);
+        getServer().getPluginManager().registerEvents(mergeGUI, this);
+
         getCommand("givespawner").setExecutor(new SpawnerCommand());
         getCommand("mergespawner").setExecutor(new SpawnerMergeCommand());
-        getServer().getPluginManager().registerEvents(new SpawnerListener(this), this);
 
     }
 
