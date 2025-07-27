@@ -5,5 +5,8 @@ api-version: '1.21'
 depend: [NBTAPI]
 commands:
   givespawner:
-    description: Gibt dir einen Test-Spawner
-    usage: /<command>
+    description: Gibt dir einen begrenzten Spawner
+    usage: /givespawner <MobType> <Anzahl-Spawns>
+  mergespawner:
+    description: Führt zwei Spawner in deiner rechten und linken Hand zusammenzu einem
+    usage: /mergespawner
