@@ -2,10 +2,6 @@ package dev.frosty.spawnsMerger;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import dev.frosty.spawnsMerger.SpawnerCommand;
-import dev.frosty.spawnsMerger.SpawnerListener;
-import dev.frosty.spawnsMerger.SpawnerMergeCommand;
-
 // MAIN
 
 public final class SpawnsMerger extends JavaPlugin {
