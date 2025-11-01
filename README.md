@@ -19,27 +19,27 @@ APIs
 
 // Konzept Stand 16.08.2025
 - GUI für Spawner-Verwaltung
-  # Spawner fusionieren
-  # Spawner einfrieren
-  # Spawnrate anpassen
-  # Spawner Statistik
-  # Spawner Level Upgrade
+   Spawner fusionieren
+   Spawner einfrieren
+   Spawnrate anpassen
+   Spawner Statistik
+   Spawner Level Upgrade
   
 - Spawner einfrieren
-  # Visueller Effekt: Eisblaue Partikel & Eisblock-Hülle um den Spawner
-  # Mit Redstone einfrieren oder mit einem Schneeball
+   Visueller Effekt: Eisblaue Partikel & Eisblock-Hülle um den Spawner
+   Mit Redstone einfrieren oder mit einem Schneeball
   
 - Spawner zusammenführen / fusionieren (Merge-System)
-  # Zwei gleiche Spawner im gleichen Level im GUI kombinieren für mehr Spawns
+   Zwei gleiche Spawner im gleichen Level im GUI kombinieren für mehr Spawns
   
 - Spawn-Raten-Anpassung (In der Config die maximale Rate einstellen um Laggs zu vermeiden)
 
 - Spawner Upgrades (vorerst bis Level 5)
-  # Level 1: Standard (1 Mob / 20s)
-  # Level 2: 2 Mobs / 18s
-  # Level 3: +5% Dropchance auf seltene Items
-  # Level 4: Mobs mit Custom Effekt + 8% Dropchance auf seltene Items
-  # Level 5: 3 Mobs / 15s + 10% Dropchance auf seltene Items + 5% XP-Multiplikator (mehr XP pro Mob)
+   Level 1: Standard (1 Mob / 20s)
+   Level 2: 2 Mobs / 18s
+   Level 3: +5% Dropchance auf seltene Items
+   Level 4: Mobs mit Custom Effekt + 8% Dropchance auf seltene Items
+   Level 5: 3 Mobs / 15s + 10% Dropchance auf seltene Items + 5% XP-Multiplikator (mehr XP pro Mob)
 
   - Custom Mobs Spawner (kann in der Config deaktiviert werden)
 
